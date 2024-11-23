@@ -1,0 +1,31 @@
+---
+import Page from '../components/Page.astro';
+---
+
+<Page title="My Stack" desc="I use lots of different technologies that I think are really powerful or just plain cool.">
+	<h1>My Stack</h1>
+	<p>I use lots of different technologies that I think are really powerful or just plain cool. Here's a list:</p>
+    <h3>Frontend</h3>
+    <p>
+        At Tundras, we use <a href="https://solidjs.com" target="_blank" rel="noopener noreferrer">Solid</a> and (rarely) <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer">Next</a> with <a href="https://ui.shadcn.com" target="_blank" rel="noopener noreferrer">shadcn/ui</a>.
+    </p>
+    <h3>Backend</h3>
+    <p>
+        I don't have a whole lot of personal projects that have a big backend (or any at all), so here's some stuff we use at Tundras:<br>
+        <ul>
+            <li>Our API is built with TypeScript and <a href="https://deno.com" target="_blank" rel="noopener noreferrer">Deno</a>.</li>
+            <li>Our load balancer is built with <a href="https://rust-lang.org" target="_blank" rel="noopener noreferrer">Rust</a> and <a href="https://hyper.rs" target="_blank" rel="noopener noreferrer">Hyper</a>.</li>
+            <li>Our management and performance system is also built with Rust and Hyper.</li>
+        </ul>
+    </p>
+    <h3>Database</h3>
+    <p>
+        For an ORM, I generally use <a href="https://prisma.io" target="_blank" rel="noopener noreferrer">Prisma</a>.<br>
+        For the database behind Prisma, I use <a href="https://postgresql.org" target="_blank" rel="noopener noreferrer">Postgres</a>.<br>
+        That's it. Good ORM, good type safety, fast database.
+    </p>
+    <h3>Cloud</h3>
+    <p>
+        <a href="https://contabo.com" target="_blank" rel="noopener noreferrer">Contabo.</a> Just use Contabo. Please. Quality servers, quality prices, quality support, quality everything.
+    </p>
+</Page>
